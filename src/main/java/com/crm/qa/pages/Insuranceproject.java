@@ -10,6 +10,7 @@ public class Insuranceproject extends Testbase {
 	
 		public Insuranceproject() {
 			PageFactory.initElements(driver, this);
+			System.out.print(false);
 		}
 
 }
