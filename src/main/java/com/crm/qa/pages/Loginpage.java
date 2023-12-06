@@ -32,12 +32,19 @@ public class Loginpage extends Testbase {
 		return driver.getTitle();
 	}
 	
-	public void login(String un, String pwd) {
+	public Homepage login(String un, String pwd) {
 		uid.sendKeys(un);
 		password.sendKeys(pwd);
 		btnLogin.click();
 		
+		return Homepage();
 		
+	
+	}
+
+	private Homepage Homepage() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }
